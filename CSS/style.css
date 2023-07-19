@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+background-image: url(../Images/header-hero.jpg);
+min-height: 100vh;
+position: relative;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.header_wrapper{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+flex-wrap: wrap;
+
+padding: 30px 0px;
+
+align-items: center;
+}
+.Logo{
+
+width: 20%;
+}
+.Logo img{
+
+}
+.menu{
+
+width: 50%;
+font-family: 'Lato', sans-serif;
+}
+.menu ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: end;
+}
+.menu ul li{
+
+}
+.menu ul li a{
+
+text-decoration: none;
+
+margin-left: 55px;
+}
+.middle_text{
+
+text-align: center;
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+
+margin-top: 50px;
+font-family: 'Lato', sans-serif;
+}
+.middle_text h1{
+    
+color: white;
+    
+font-size: 50px;
+    
+margin-bottom: -24px;
+}
+.middle_text h2{
+    
+color: white;
+    
+font-size: 110px;
+    
+padding: 4px 0;
+}
+.middle_text p{
+    
+color: white;
+    
+margin-top: 4px;
+}
+.middle_text button{
+    
+border: 1px solid yellowgreen;
+    
+padding: 15px 35px;
+    
+margin-top: 30px;
+    
+background: yellowgreen;
+    
+border-radius: 5px;
+    
+font-size: medium;
+}
+.middle_text button:hover{
+    background-color: white;
+}
+.service{
+
+width: 80%;
+
+margin: auto;
+
+text-align: center;
+
+padding: 50px 0;
+font-family: 'Lato', sans-serif;
+}
+.text_font{
+
+margin-top: 40px;
+}
+.text_font h3{
+
+font-size: 40px;
+
+color: darkgreen;
+
+margin-bottom: 24px;
+}
+.text_font span{
+
+display: block;
+
+height: 2px;
+
+background: palevioletred;
+
+width: 80px;
+
+margin: auto;
+
+margin-bottom: 52px;
+}
+.feature{
+
+width: 90%;
+
+margin: auto;
+
+display: flex;
+}
+.itext{
+
+width: 31%;
+
+margin: auto;
+font-family: 'Lato', sans-serif;
+}
+.itext img{
+
+width: 100%;
+}
+.itext h4{
+
+font-size: 30px;
+
+padding: 20px 0;
+}
+.itext p{
+
+font-size: medium;
+
+text-align: left;
+
+margin-top: -7px;
+}
+.third{
+
+background: whitesmoke;
+font-family: 'Ysabeau Office', sans-serif;
+}
+.thirdtext{
+
+margin: 50px 0;
+
+padding: 50px 0;
+}
+.thirdtext h4{
+
+font-size: 25px;
+
+width: 80%;
+
+margin: auto;
+
+text-align: center;
+
+font-weight: normal;
+}
+.thirdicon{
+
+width: 70%;
+
+margin: auto;
+
+text-align: center;
+
+font-size: 50px;
+}
+.timg{
+
+width: 11%;
+
+margin: auto;
+
+margin-top: 35px;
+}
+.timg img{
+    
+width: 50%;
+}
+.timg h6{
+    
+width: 70%;
+    
+margin: auto;
+    
+text-align: center;
+    
+padding-top: 3px;
+    
+font-size: 13px;
+    
+padding-bottom: 25px;
+}
+.content{
+
+display: flex;
+
+width: 80%;
+
+margin: auto;
+
+padding: 20px 0 25px;
+
+justify-content: space-between;
+}
+.left{
+
+width: 45%;
+
+PADDING-TOP: 80PX;
+font-family: 'Lato', sans-serif;
+}
+.left h6{
+    
+font-size: 20px;
+    
+padding-bottom: 10px;
+}
+.left h3{
+    
+font-size: 42px;
+    
+padding-bottom: 20px;
+font-family: 'Ysabeau Office', sans-serif;
+}
+.left p{font-size: medium;padding-bottom: 44px;}
+.left button{
+    
+padding: 20px 40px;
+    
+font-size: 17px;
+border-radius: 4px;
+}
+.right{
+
+width: 45%;
+}
+.right img{
+    
+width: 100%;
+}
+.left button:hover{
+    background-color: gold;
+}
+.lasted{
+
+position: relative;
+
+margin-top: 45px;
+}
+.lastimg{
+}
+.lastimg img{
+    
+width: 100%;
+} 
+.newest{
+
+position: absolute;
+
+top: 30%;
+
+left: 50%;
+
+transform: translate(-50%);
+
+text-align: center;
+}
+.newest h1{
+    
+font-size: 80px;
+    
+color: white;
+font-family: 'Lato', sans-serif;
+}
+.newest p{
+    
+color: white;
+    
+padding: 20px 40px;
+}
+.newest button{
+    
+padding: 20px 35px;
+    
+background: transparent;
+    
+margin-top: 50px;
+    
+border: 1px solid red;
+    
+border-radius: 5px;
+    
+font-size: 17px;
+color: azure;
+
+}
+.newest button:hover{
+    background-color: gold;
+}
+footer{
+
+display: flex;
+
+width: 85%;
+
+margin: auto;
+
+justify-content: space-between;
+
+align-items: center;
+
+padding: 20px 0 20px;
+
+font-family: 'Lato', sans-serif;
+}
+.latopics{
+
+}
+.latopics p{
+    
+color: green;
+    
+font-size: 18px;
+}
+.lalogo{
+
+width: 5%;
+}
+.lalogo img{
+    
+width: 100%;
+}
+.latext{width: 13%;margin-left: 0px;}
+.latext p{
+    
+font-size: 18px;
+    
+color: green;
+font-family: 'Lato', sans-serif;
+}
